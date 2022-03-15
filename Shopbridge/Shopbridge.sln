@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopbridgeWebAPI", "ShopbridgeWebAPI\ShopbridgeWebAPI.csproj", "{9BACFDA8-2607-4222-BECA-381F39695914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopbridgeUnitTest", "ShopbridgeUnitTest\ShopbridgeUnitTest.csproj", "{945D1927-1505-4B5E-B50F-1E29CDB3442E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9BACFDA8-2607-4222-BECA-381F39695914} = {9BACFDA8-2607-4222-BECA-381F39695914}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BACFDA8-2607-4222-BECA-381F39695914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945D1927-1505-4B5E-B50F-1E29CDB3442E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945D1927-1505-4B5E-B50F-1E29CDB3442E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945D1927-1505-4B5E-B50F-1E29CDB3442E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945D1927-1505-4B5E-B50F-1E29CDB3442E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1A7ADF-9D75-4436-BD96-45FD6F70F66E}
+	EndGlobalSection
+EndGlobal
