@@ -1,10 +1,5 @@
 # ShopBridge
 
-Download
-1.Download the rar file from this repository.
-2.Extract the rar file.
-3.It will contain the Application folder named "Shopbridge" and word file named "ShopBridge Testing Screenshots" which specifies the request format and URL for each API call.
-
 Deploy to Production Server
 1.Open folder Shopbridge and navigate to ShopbridgeWebAPI\bin\Release\net5.0 folder.
 2.Copy all the files inside and deploy on production server.
