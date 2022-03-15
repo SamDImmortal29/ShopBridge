@@ -1,7 +1,7 @@
 # ShopBridge
 
 Deploy to Production Server
-1.Open folder Shopbridge and navigate to ShopbridgeWebAPI\bin\Release\net5.0 folder.
+1.Open folder Production Deployment.
 2.Copy all the files inside and deploy on production server.
 
 Open, Build & Run Project
