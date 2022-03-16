@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.EntityFrameworkCore;
 using ShopbridgeWebAPI.Domain.Models;
 
 namespace ShopbridgeWebAPI.Data
 {
     public class Shopbridge_Context : DbContext
     {
-        public static readonly ILoggerFactory _loggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(); });
         public Shopbridge_Context (DbContextOptions<Shopbridge_Context> options)
             : base(options)
         {
@@ -18,10 +12,6 @@ namespace ShopbridgeWebAPI.Data
 
         public DbSet<Product> Product { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseLoggerFactory(_loggerFactory);
-        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

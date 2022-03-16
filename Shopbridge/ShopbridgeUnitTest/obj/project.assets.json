@@ -9622,11 +9622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repo\\Shopbridge\\ShopbridgeUnitTest\\ShopbridgeUnitTest.csproj",
+      "projectUniqueName": "F:\\Git Uploads\\ShopBridge\\Shopbridge\\ShopbridgeUnitTest\\ShopbridgeUnitTest.csproj",
       "projectName": "Shopbridge.ShopbridgeUnitTest",
-      "projectPath": "F:\\Repo\\Shopbridge\\ShopbridgeUnitTest\\ShopbridgeUnitTest.csproj",
+      "projectPath": "F:\\Git Uploads\\ShopBridge\\Shopbridge\\ShopbridgeUnitTest\\ShopbridgeUnitTest.csproj",
       "packagesPath": "C:\\Users\\sameer sahu\\.nuget\\packages\\",
-      "outputPath": "F:\\Repo\\Shopbridge\\ShopbridgeUnitTest\\obj\\",
+      "outputPath": "F:\\Git Uploads\\ShopBridge\\Shopbridge\\ShopbridgeUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sameer sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9643,8 +9643,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Repo\\Shopbridge\\ShopbridgeWebAPI\\ShopbridgeWebAPI.csproj": {
-              "projectPath": "F:\\Repo\\Shopbridge\\ShopbridgeWebAPI\\ShopbridgeWebAPI.csproj"
+            "F:\\Git Uploads\\ShopBridge\\Shopbridge\\ShopbridgeWebAPI\\ShopbridgeWebAPI.csproj": {
+              "projectPath": "F:\\Git Uploads\\ShopBridge\\Shopbridge\\ShopbridgeWebAPI\\ShopbridgeWebAPI.csproj"
             }
           }
         }
